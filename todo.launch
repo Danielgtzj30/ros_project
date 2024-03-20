@@ -1,0 +1,7 @@
+<launch>
+    
+    <node pkg="dron" type="dinamica_node" name="dinamica_node" />
+    <node pkg="dron" type="posicion_node" name="posicion_node" />
+    <node pkg="dron" type="ang_node" name="ang_node" />
+    <node pkg="dron" type="referencaias.py" name="referencaias_node" output="screen" />
+</launch>

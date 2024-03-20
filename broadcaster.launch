@@ -1,0 +1,7 @@
+<launch>
+
+	
+	<node pkg="dron" type="quad_gazebo_broadcaster_node" name="quad_gazebo_broadcaster_node"  />
+	
+
+</launch>
